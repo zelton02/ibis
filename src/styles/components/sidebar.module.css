@@ -1,15 +1,13 @@
 .sideBar {
     position: fixed;
     top: 60px;
-
     width: 160px;
     height: calc(100% - 60px);
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: #161616;
 }
 .sideButton{
     flex: auto;
@@ -27,7 +25,7 @@
 .sideBarButton{
     text-decoration: none;
     width: 100%;
-    color: black;
+    color: white;
 }
 
 
@@ -35,11 +33,15 @@
 .title, .name,.selected {
     font-size: 16px;
     padding: 20px;
+    color: white;
 }
 
 .selected{
-    background-color: blue;
+    background-color: #343541;
     color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 65%;
 }
 
 .pic{
