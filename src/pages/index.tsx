@@ -10,7 +10,8 @@ export default function Home() {
     <div>
 
       <Frame current={naviPage[0]} ></Frame>
-      <div className={frame.frame}></div>
+      <div className={frame.frame}>
+      </div>
     </div>
   )
 }
