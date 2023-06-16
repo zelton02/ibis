@@ -1,0 +1,50 @@
+.sideBar {
+    position: fixed;
+    top: 60px;
+
+    width: 160px;
+    height: calc(100% - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+.sideButton{
+    flex: auto;
+    width: 100%;
+}
+.profile{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.sideBarButton{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+
+
+
+.title, .name,.selected {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.selected{
+    background-color: blue;
+    color: white;
+}
+
+.pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+}

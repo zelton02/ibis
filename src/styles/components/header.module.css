@@ -1,0 +1,24 @@
+.header {
+    position: sticky;
+    top: 0;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+}
+
+.title{
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.noti{
+    margin: 10px 20px;
+    
+}
