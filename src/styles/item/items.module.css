@@ -7,6 +7,14 @@
 .id{
     flex: 10%;
 }
+
 .name{
     flex: 90%;
+}
+
+.title_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
 }
