@@ -12,7 +12,7 @@ const SideBar: React.FC<FrameProp> = ({ current }) => {
 
     const title: string[] = [
         'Home',
-        'Items',
+        'Inventory',
         'Supplier',
     ]
 
