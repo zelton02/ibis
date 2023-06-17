@@ -5,6 +5,7 @@ import { naviPage } from 'model/navi'
 import frame from '@/styles/Frame.module.css';
 import { connectDb } from 'model/connect';
 import Head from 'next/head';
+import HomeSuggestion from 'components/home/suggestion';
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
     <div>
       <Frame current={naviPage[0]} ></Frame>
       <div className={frame.frame}>
+        <HomeSuggestion></HomeSuggestion>
         <h2>Home</h2>
         <div onClick={()=>connectDb()}>connect</div>
       </div>
