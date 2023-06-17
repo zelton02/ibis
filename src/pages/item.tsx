@@ -8,7 +8,10 @@ export default function Item() {
     <div>
 
       <Frame current={naviPage[1]} ></Frame>
-      <div className={frame.frame}></div>
+      <div className={frame.frame}>
+      <h2>Item</h2>
+
+      </div>
 
     </div>
   )
