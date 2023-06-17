@@ -1,8 +1,13 @@
+.table{
+    border: 1px solid darkgray;
+    width: 75vw;
+
+}
 .suggestionBar,
 .suggestionBarr {
-    width: 75vw;
-    padding: 5px 20px;
-    
+    /* width: 100%; */
+    padding: 8px 20px;
+
 
 }
 
