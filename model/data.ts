@@ -18,19 +18,20 @@ export type Transaction = {
 
 export type ItemOutRecord = {
     item_id: string;
-    transaction_id: string;
-    quantity_used: number;
+    sme_id: string;
+    out_timestamp: string;
+    quantity_out: number;
     description: string;
 }
 
 export type ItemInRecord = {
     item_id: string;
-    supplier_id: string;
+    sme_id: string;
     order_timestamp: Date;
-    quantity: number;
+    supplier_id: string;
+    quantity_in: number;
     total_price: number;
     unit_price: number;
-    sme_id: string;
     status: string;
 }
 
@@ -44,10 +45,11 @@ export type SME = {
 
 export type ItemOwned = {
     item_id: string;
+    sme_id: string;
+    batch_id: number;
+    preferred_supplier: string;
     item_quantity: number;
     item_max_threshold: number;
     item_min_threshold: number;
-    preferred_supplier: string;
-    sme_id: string;
     expiry_date: Date;
 }
